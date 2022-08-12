@@ -1099,8 +1099,8 @@ td.pointer {
     padding: 3px 3px 2px 9px;
     height: 17px;
     line-height: 17px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
 }
 
 .recipient_bar_controls {

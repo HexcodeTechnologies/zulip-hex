@@ -213,7 +213,7 @@ CREATE TRIGGER zerver_message_update_search_tsvector_async
                         auto_created=True, primary_key=True, serialize=False, verbose_name="ID"
                     ),
                 ),
-                ("subject", models.CharField(db_index=True, max_length=60)),
+                ("subject", models.CharField(db_index=True, max_length=200)),
                 ("content", models.TextField()),
                 ("rendered_content", models.TextField(null=True)),
                 ("rendered_content_version", models.IntegerField(null=True)),

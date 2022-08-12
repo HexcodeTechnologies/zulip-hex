@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                         auto_created=True, primary_key=True, serialize=False, verbose_name="ID"
                     ),
                 ),
-                ("subject", models.CharField(max_length=60)),
+                ("subject", models.CharField(max_length=200)),
                 ("content", models.TextField()),
                 ("scheduled_timestamp", models.DateTimeField(db_index=True)),
                 ("delivered", models.BooleanField(default=False)),
