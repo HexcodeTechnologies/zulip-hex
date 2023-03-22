@@ -464,7 +464,7 @@ textarea.new_message_textarea {
     display: table-cell;
     width: calc(100% - 12px);
     padding: 5px;
-    height: 1.5em;
+    height: 6em;
     max-height: 22em;
     margin-bottom: 0;
     resize: vertical !important;
