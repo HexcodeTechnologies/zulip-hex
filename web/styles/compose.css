@@ -844,6 +844,7 @@ a.compose_control_button.hide {
         flex: 1;
     }
 }
+
 #stream-message,
 #private-message {
   display: flex;
