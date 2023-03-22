@@ -626,11 +626,6 @@ input.recipient_box {
     }
 }
 
-#stream-message,
-#private-message {
-    display: flex;
-}
-
 #private-message {
     align-items: center;
     width: 100%;
@@ -853,4 +848,5 @@ a.compose_control_button.hide {
 #private-message {
   display: flex;
   width: 100%;
+  display: flex;
 }
